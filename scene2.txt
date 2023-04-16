@@ -1,0 +1,182 @@
+n "You start the day rejuvinated."
+  "This is it finally moved in and on your own."
+  "You dont have any classes today and think about exploring the beach." 
+  "unfortunatly Ava has classes during the day for if you would want to go with her."
+  "Do you wait or go by yourself."
+  
+  menu: 
+        "What should I do?"
+
+        "I should go by myself before it gets to packed.":
+            jump Choice_3
+
+        "I could use some study time and wait for Ava":
+            jump Choice_4
+			
+	lable Choice_3:
+	
+	n "You sit on the part of the beach where the waves just brush your feet."
+	  "Not many people are here because most are at school."
+	  "Then almost out of thin air a woman appears beside you.
+	  
+	o "Is this grain of sand taken"
+	
+	n "She sits down before you can answer."
+	  "You squeak out a few words from your shock from her intrussion of your peace."
+	  
+	p "Who are you."
+
+    o "My name is Olivia and I live right their."
+
+    n "Pridefully, she points at a fairly nice looking beach house"
+
+    p "Well my names PEA and I was sitting right here"
+
+    n "She giggles."
+
+	o "Your funny Pea but I couldn't help myself from coming over by how lonely you looked."
+	
+	o "Say why dont we do something fun"
+	
+	p "fun?"
+	
+	o "you know like play a game or tan and not just sit here"
+	
+	p " Isn't tanning just sitting with extra steps."
+	
+	o "yeah but you look better after."
+	
+	  menu: 
+        "What should we do?"
+
+        "We should play games.":
+            jump Choice_3.1
+
+        "We should get a tan.":
+            jump Choice_3.2
+			
+	  lable Choice_3.1:
+	  
+	  n "You two decide to spend the whole day playing games in the water"
+	    "It feels as though you've made your first friend sence coming to college."
+		
+	  o "I had a ton of fun playing with you today."
+	  
+	  p "I can second that."
+	  
+	  o "Maybe we could do this again sometime"
+	     
+	  
+	  menu: 
+        "Shall we?"
+
+        "Yeah maybe we could go to the mall.":
+            jump Choice_5
+
+        "Well im pretty busy with school but maybe some other time.":
+            jump Choice_7
+			
+	  lable Choice_3.2:
+	  
+	  n "You two decide to tan in the sun."
+	  n "Now of course you can only tan for about 45min."
+	    "You spend the rest of the day inside her house that she suprisingly owns, watching movies."
+	  	
+	 	 o "I had a ton of fun playing with you today."
+	  
+	  p "I can second that."
+	  
+	  o "Maybe we could do this again sometime"
+	     
+	  
+	  menu: 
+        "Shall we?"
+
+        "Yeah maybe we could go to the mall.":
+            jump Choice_5
+
+        "Well im pretty busy with school but maybe some other time.":
+            jump Choice_7
+	  
+	  label Choice_4
+	  
+	  n "You spend the day studying"
+	    "aka you browse youtube videos and write a script for a weird dating sim."
+		
+	  n "Then the knock you've been waiting all day for happens"
+	  
+	  h "Hey sorry for being late my professor found it nessasary to go over all 10110 pages of the syllabus"
+
+	  p "Enough talk beach time."
+	  
+	  n "You say almost menicingly."
+	  
+	  n "You arrive at the beach and its bustiling with activity."
+	  
+	  h "Do you want to get some ice cream or go strait to the waves."
+	  
+	  menu: 
+        "What shall we do?"
+
+        "lets get some ice cream.":
+            jump Choice_4.1
+
+        "Lets hit the waves SURFS UP":
+            jump Choice_4.2
+			
+	  label Choice_4.1:
+      
+      n "You get in line for ice cream."
+      
+      n "And you wait."
+        "And wait.
+        "And..."
+        "Wait"
+
+      h "Will this ever end"
+
+      P "Only god knows"
+
+      n "Finally after what felt like 10 years of waiting you reach the ice cream stand."
+        "drooling your you see the delicious....and they just closed."
+
+      h "this has got to be the worst beach day ever"
+
+      p "Hey at least we can look back and laugh at this in the future."
+ 
+      h "maybe we could go somewhere else next time?"
+
+	  menu: 
+        "What shall we do?"
+
+        "Yeah maybe we can hit up the mall next":
+            jump Choice_6
+
+        "Well im pretty busy with school after today but maybe I can find a day.":
+            jump Choice_7
+			
+	  label Choice_4.2
+	  
+	  n "You make a mad dash for the waves"
+	    "sadly you both left your Boards at home."
+	
+	  h "hey we always could just wave jump."
+	  
+	  n "You spend the entire day wave jumping and having a blast in the sun."
+	  
+	  h " Wow that was awesome."
+	  
+	  p "totally"
+	  
+	  p " You know I actually hate sand its course rough and gets everywhere."
+	  
+	  h "Okay anakin, anywho we should do something like this again sometime."
+	  
+	  menu: 
+        "What shall we do?"
+
+        "Yeah maybe we can hit up the mall next":
+            jump Choice_6
+
+        "Well im pretty busy with school after today but maybe I can find a day.":
+            jump Choice_7

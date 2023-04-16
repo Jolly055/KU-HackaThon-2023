@@ -1,0 +1,99 @@
+n "You hear a knock on the door"
+        p "Hello?"
+        h "Did you forget I was coming? Anyway, hey PEA, what's up?"
+
+        p "Not much, just relaxing after a long day working. What about you?"
+
+        h "I'm good, just got home from the grocery store. As a treat, I'm making dinner tonight as, what do you want?"
+
+        p "Anything is fine with me."
+
+        h "Know what? I'll make your favorite, spaghetti and meatballs."
+
+        p "Oh man, that sounds delicious! I can't wait to eat it."
+
+        h "It'll be ready in about an hour. In the meantime, why don't you go take a shower and get changed?"
+
+        p "Sounds good, I'll be right back."
+        n "You take a shower"
+        p "OK, I'm all cleaned up and ready to eat."
+
+        h "Great! Dinner is almost ready."
+        n "Dinner is served, and it looks delicous"
+        h "Here you go, bon appetit!"
+
+
+        h "You're welcome! I'm glad you like it."
+        "So, how was your day at work?"
+
+        p "Oh, what I meant by work earlier was that it was 'hard work' moving all my stuff into this room."
+
+        h "Oh, cool"
+		
+		n " The girl presented before you is your long time friend from you home Ava"
+		  " Why dont you ask her a question"
+		  
+		menu: 
+        "What should I say?"
+
+        "WOW! This spagetti is Delicious my compliments to the chef! This is even better than your mothers!":
+            jump Choice_1
+
+        "This spagetti is pretty good but its not as good as how your mom makes it.":
+            jump Choice_2
+			
+		label Choice_1:
+		
+		h "Wow thank you for the compliment. She told me that I would need to learn her famous recipe if i was going to be feeding you all the time."
+		
+		p "Hey I can cook for myself"
+		
+		n "Deep down you know you cant even use a microwave."
+		
+		n "Some time passes and you guys find yourselfs on the bed"
+		
+		  "Ava faces you and talks with a shyness in her."
+		
+		h "Hey PEA can you promise me that things will never change between us"
+		
+		h "Like keep things the same way as when we were kids?"
+		
+		menu: 
+        "What should I say?"
+
+        "I promise":
+            
+
+        "I cant guarantee that.":
+            
+		
+		end scene one
+		
+		label Choice_2:
+		
+		n "she pouts at this remark."
+		
+		h " Well thats just rude."
+		
+		n "She start waking you with the ladel shes been holding."
+		
+		p "Hey Hey watch where your swinging that thing"
+		
+		n "she chases you around for awhile but you both end up lying on your bed huffing and puffing."
+		
+		h "hey"
+		
+		n "Ava is now facing you."
+		
+		h "Promise me you'll never grow up."
+		
+		menu: 
+        "What should I say?"
+
+        "I promise":
+            
+
+        "I cant guarantee that.":
+            
+		
+		end scene one

@@ -1,0 +1,35 @@
+label Choice_7
+n "The festival is in town!"
+"You Have been invited by Ava to go attend and watch the fireworks show."
+h "Can you believe all these tents with differnt games."
+"We should do Ring toss."
+n " You follow Ava all through the festival and the festivities."
+"Finally your minutes away from the fireworks show."
+"Ava grabs your hands."
+h "You know I've know you for a long time."
+"Every day you were their for me from elemntry to now."
+"Even though were here together at college."
+"I Still feer loosing you."
+"So"
+n "Her face turns red."
+h "would you like to go out with me."
+ menu: 
+        "yes or no?"
+
+        "Yes.":
+            jump Choice_7.1
+
+        "No.":
+            jump Choice_7.2
+			
+label Choice_7.1
+h "Well...Good Now i know ill never lose you."
+n "You watch the fireworks show holding each other."
+n "And they all lived happily ever after."
+n "Except for the writer of this script."
+
+label Choice_7.1
+h "Well....Thats just fine."
+"Were still best friends to the very end."
+n "You watch the fireworks show even though its a little awarkward.
+"YOU GOT THE BAD ENDING."

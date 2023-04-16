@@ -1,0 +1,65 @@
+ label Choice_5
+ 
+n "You head home and fall directly into a deep sleep." 
+"You wake up feeling both energized and sore."
+"After getting ready for the day, you head over to the beach house that Olivia pointed at yesterday."
+"You head up, knock on the door, and she answers"
+p "Hey are you ready to go"
+o "Ready as I'll ever be."
+n "You pack into your car and drive towards the mall."
+o "Theirs so much we can do here what would you like to do."
+
+ menu: 
+        "Shall we?"
+
+        "We could shop.":
+            jump Choice_5.1
+
+        "We can ride the amusment park rides.":
+            jump Choice_5.2
+			
+ label Choice_5.1
+ n " You spend the next few hours shopping."
+"You sadly dont buy anything because you are a poor little college student."
+"Olivia however goes on a shopping spree."
+
+o "You know you've never asked me about the house."
+p "Why would I."
+o "Its a house by a beach and I'm such a young person to own a house like that."
+p "Well i just assumed you mined bitcoin or something."
+o "No its actually my parents money."
+o "They died a few years back, and I got all the inheritance."
+p "Oh well thats unforunate to here I'm sorry"
+o "Its fine im over it"
+o "But I feel as though your the only person who try to use me for my money."
+p "Thats cause moneys for chumps I say."
+o "you're funny PEA."
+
+n "You spend another hour at the mall and then go home."
+
+ menu: 
+        "Continue?"
+
+        "We could shop.":
+            jump Choice_7
+			
+  label Choice_5.2
+  n "Yes this is one of those malls."
+  "you spend hours of fun with Olivia."
+  "after your stomachs calm down you sit down on a binch."
+  o "You know you've never asked me about the house."
+p "Why would I."
+o "Its a house by a beach and I'm such a young person to own a house like that."
+p "Well i just assumed you mined bitcoin or something."
+o "No its actually my parents money."
+o "They died a few years back, and I got all the inheritance."
+p "Oh well thats unforunate to here I'm sorry"
+o "Its fine im over it"
+o "But I feel as though your the only person who try to use me for my money."
+p "Thats cause moneys for chumps I say."
+o "you're funny PEA."
+   menu: 
+        "Continue?"
+
+        "We could shop.":
+            jump Choice_7

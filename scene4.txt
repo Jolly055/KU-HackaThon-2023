@@ -1,0 +1,50 @@
+label Choice_6
+n"You start the morning sunburnt and sore from the previous day"
+"You walk over to Ava's room and already hear her humming on the other side of the door."
+
+p "HHHHOOOONNNEEEYYY IIIIMMMM HOOOMMEEEE."
+h "BBBBBRRRREAKFAST IS ON THE STOVE."
+n "You eat breakfast with Ava and then head to the mall."
+h "So what do you want to do first."
+
+ menu: 
+        "Shall we?"
+
+        "We could shop.":
+            jump Choice_6.1
+
+        "We can ride the amusment park rides.":
+            jump Choice_6.2
+			
+label Choice 6.1
+ n " You spend the next few hours shopping."
+"Unfortunately you are two poor college students and dont buy anything and just look."
+"Then finding a place to sit."
+
+h "You know your my only real friend."
+p "yeah"
+h "See I was always more tomboyish and the girls wouldn't play with me."
+h "And the guys didn't want anything to do with me because I'm a girl."
+p "Your a girl?"
+h "oh quit goofing around."
+h "but seriously thank you."
+p "your welcome"
+
+n "You spend more time together and then go home."
+jump Choice_7
+
+label Choice 6.2
+  n "Yes this is one of those malls."
+  "you spend hours of fun with Ava."
+  "after your stomachs calm down you sit down on a binch."
+h "You know your my only real friend."
+p "yeah"
+h "See I was always more tomboyish and the girls wouldn't play with me."
+h "And the guys didn't want anything to do with me because I'm a girl."
+p "Your a girl?"
+h "oh quit goofing around."
+h "but seriously thank you."
+p "your welcome"
+
+n "You spend more time together and then go home."
+jump Choice_7
